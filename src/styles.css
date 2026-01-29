@@ -1,0 +1,69 @@
+body {
+  font-family: sans-serif;
+  background: #eee;
+  margin: 0;
+}
+.login-screen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.login-screen input {
+  padding: 10px;
+  font-size: 16px;
+}
+.app {
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  padding: 15px;
+  background: #0084ff;
+  color: white;
+}
+.messages {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.message {
+  padding: 10px;
+  background: #f1f1f1;
+  border-radius: 10px;
+  max-width: 80%;
+}
+.message.mine {
+  align-self: flex-end;
+  background: #dcf8c6;
+}
+.input-area {
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+button,
+label {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #0084ff;
+}
